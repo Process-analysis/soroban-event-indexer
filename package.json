@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "@stellar/stellar-sdk": "^13.3.0",
-    "better-sqlite3": "^11.8.1",
+    "better-sqlite3": "^13.0.3",
     "commander": "^13.1.0",
     "pg": "^8.13.3",
     "pino": "^9.6.0",
