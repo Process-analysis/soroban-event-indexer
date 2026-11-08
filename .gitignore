@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+.env
+.env.*
+!packages/contracts/src/lib.rs
+data/
+*.sqlite
+*.sqlite-journal
+*.db

@@ -1,0 +1,67 @@
+{
+  "name": "soroban-event-indexer",
+  "version": "0.1.0",
+  "description": "A reliable, reusable toolkit to index, decode, and persist Soroban smart contract events with transactional cursor checkpointing.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "soroban-indexer": "./dist/cli/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "lint:fix": "eslint \"src/**/*.ts\" \"tests/**/*.ts\" --fix",
+    "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "smoke:testnet": "vitest run tests/smoke.test.ts"
+  },
+  "keywords": [
+    "soroban",
+    "stellar",
+    "indexer",
+    "smart-contracts",
+    "blockchain",
+    "sqlite",
+    "postgres",
+    "xdr"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.5.2",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^13.3.0",
+    "better-sqlite3": "^11.8.1",
+    "commander": "^13.1.0",
+    "pg": "^8.13.3",
+    "pino": "^9.6.0",
+    "prom-client": "^15.1.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.13.9",
+    "@types/pg": "^8.11.11",
+    "eslint": "^9.21.0",
+    "fast-check": "^3.23.2",
+    "pino-pretty": "^13.0.0",
+    "prettier": "^3.5.3",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0",
+    "vitest": "^3.0.7"
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "0000000000000001-0000000001",
+    "type": "contract",
+    "ledger": 1001,
+    "ledgerClosedAt": "2026-11-08T18:00:00Z",
+    "contractId": "CA3D5KRYMCMQU7YOGCVCPKZASDF1234567890ASDF1234567890ASDF12",
+    "topic": [
+      "AAAADwAAAApWZXJ5UHJpbmNlAAA=",
+      "AAAADwAAAAtJbml0aWFsaXplZAA="
+    ],
+    "value": {
+      "xdr": "AAAADgAAAAt2ZXJ5LXByaW5jZQA="
+    },
+    "pagingToken": "0000000000000001-0000000001",
+    "inSuccessfulContractCall": true
+  },
+  {
+    "id": "0000000000000002-0000000001",
+    "type": "contract",
+    "ledger": 1002,
+    "ledgerClosedAt": "2026-11-08T18:00:05Z",
+    "contractId": "CA3D5KRYMCMQU7YOGCVCPKZASDF1234567890ASDF1234567890ASDF12",
+    "topic": [
+      "AAAADwAAAApWZXJ5UHJpbmNlAAA=",
+      "AAAADwAAAAlPcmdGdW5kZWQAAAA="
+    ],
+    "value": {
+      "xdr": "AAAAEAAAAAEAAAADAAAADgAAAARvcmcxAAAADgAAAAR1c2VyAAAACgAAAAAAAAAAAAAnEAAAAAA="
+    },
+    "pagingToken": "0000000000000002-0000000001",
+    "inSuccessfulContractCall": true
+  },
+  {
+    "id": "0000000000000003-0000000001",
+    "type": "contract",
+    "ledger": 1003,
+    "ledgerClosedAt": "2026-11-08T18:00:10Z",
+    "contractId": "CA3D5KRYMCMQU7YOGCVCPKZASDF1234567890ASDF1234567890ASDF12",
+    "topic": [
+      "AAAADwAAAApWZXJ5UHJpbmNlAAA=",
+      "AAAADwAAAA9QYXlvdXRBbGxvY2F0ZWQA"
+    ],
+    "value": {
+      "xdr": "AAAAEAAAAAEAAAADAAAADgAAAARvcmcxAAAADgAAAARkZXYxAAAACgAAAAAAAAAAAAAD6AAAAAA="
+    },
+    "pagingToken": "0000000000000003-0000000001",
+    "inSuccessfulContractCall": true
+  },
+  {
+    "id": "0000000000000004-0000000001",
+    "type": "contract",
+    "ledger": 1004,
+    "ledgerClosedAt": "2026-11-08T18:00:15Z",
+    "contractId": "CA3D5KRYMCMQU7YOGCVCPKZASDF1234567890ASDF1234567890ASDF12",
+    "topic": [
+      "AAAADwAAAApWZXJ5UHJpbmNlAAA=",
+      "AAAADwAAAA1QYXlvdXRDbGFpbWVkAAAA"
+    ],
+    "value": {
+      "xdr": "AAAAEAAAAAEAAAADAAAADgAAAARvcmcxAAAADgAAAARkZXYxAAAACgAAAAAAAAAAAAAD6AAAAAA="
+    },
+    "pagingToken": "0000000000000004-0000000001",
+    "inSuccessfulContractCall": true
+  }
+]

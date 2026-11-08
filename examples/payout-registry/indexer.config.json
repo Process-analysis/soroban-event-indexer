@@ -1,0 +1,23 @@
+{
+  "rpcUrl": "https://soroban-testnet.stellar.org",
+  "networkPassphrase": "Test SDF Network ; September 2015",
+  "storage": {
+    "adapter": "sqlite",
+    "path": "./payout-indexer.sqlite"
+  },
+  "pollIntervalMs": 500,
+  "limit": 50,
+  "startLedger": 1000,
+  "filters": [
+    {
+      "contractIds": ["CA3D5KRYMCMQU7YOGCVCPKZASDF1234567890ASDF1234567890ASDF12"],
+      "topics": [["VeryPrince", "*"]]
+    }
+  ],
+  "metrics": {
+    "enabled": false,
+    "port": 9090,
+    "host": "0.0.0.0"
+  },
+  "logLevel": "info"
+}
