@@ -1,7 +1,7 @@
 # soroban-event-indexer
 
-[![CI](https://github.com/<OWNER>/soroban-event-indexer/actions/workflows/ci.yml/badge.svg)](https://github.com/<OWNER>/soroban-event-indexer/actions/workflows/ci.yml)
-[![Status: Beta](https://img.shields.io/badge/status-beta-blue.svg)](https://github.com/<OWNER>/soroban-event-indexer)
+[![CI](https://github.com/Process-analysis/soroban-event-indexer/actions/workflows/ci.yml/badge.svg)](https://github.com/Process-analysis/soroban-event-indexer/actions/workflows/ci.yml)
+[![Status: Beta](https://img.shields.io/badge/status-beta-blue.svg)](https://github.com/Process-analysis/soroban-event-indexer)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Node: >=20](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](package.json)
 
@@ -230,4 +230,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for local setup, commit conventions, and 
 
 ## License
 
-[MIT](LICENSE) © 2026 `<COPYRIGHT HOLDER>`
+[MIT](LICENSE) © 2026 `Agbelomo`

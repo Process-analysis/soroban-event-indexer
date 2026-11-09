@@ -18,7 +18,7 @@ All contributors are expected to uphold the [Code of Conduct](CODE_OF_CONDUCT.md
 
 1. Fork and clone the repository:
    ```bash
-   git clone https://github.com/<OWNER>/soroban-event-indexer.git
+   git clone https://github.com/Process-analysis/soroban-event-indexer.git
    cd soroban-event-indexer
    ```
 
